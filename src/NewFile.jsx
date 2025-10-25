@@ -3,7 +3,7 @@ import React from 'react'
 const NewFile = () => {
   return (
     <div>
-        <h1>Abubakar Aslam</h1>
+        <h1 style={{backgroundColor:"green"}}>Abubakar Aslam</h1>
     </div>
   )
 }
