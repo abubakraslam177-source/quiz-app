@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Confetti from "react-confetti";
 import "./App.css";
+import File from "./components/File";
 
 const questions = [
   {
@@ -141,6 +142,7 @@ function App() {
 
   return (
     <>
+    <File/>
       <div className="app-container">
         <div className="quiz-card">
           <div className="quiz-title">Quiz App</div>

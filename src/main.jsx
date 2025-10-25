@@ -6,6 +6,7 @@ import NewFile from './NewFile.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+
     <App />
     <NewFile/>
   </StrictMode>,
